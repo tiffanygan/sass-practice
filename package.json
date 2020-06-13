@@ -1,0 +1,26 @@
+{
+    "name": "sass-practice",
+    "version": "1.0.0",
+    "description": "Sass practice",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo 'Hello World'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tiffanygan/sass-practice.git"
+    },
+    "keywords": [
+        "sass",
+        "practice"
+    ],
+    "author": "Tiffany Gan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tiffanygan/sass-practice/issues"
+    },
+    "homepage": "https://github.com/tiffanygan/sass-practice#readme",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}
