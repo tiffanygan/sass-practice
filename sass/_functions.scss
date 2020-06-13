@@ -1,0 +1,13 @@
+@function text-color($bg-color) {
+    @if (lightness($bg-color) > 50) {
+        @return black
+    }
+    @else {
+        @return white
+    }
+}
+
+@mixin set-background-and-color($bg-color) {
+    background-color: $bg-color;
+    color: text-color($bg-color);
+}

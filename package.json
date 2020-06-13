@@ -4,7 +4,8 @@
     "description": "Sass practice",
     "main": "index.js",
     "scripts": {
-        "test": "echo 'Hello World'"
+        "test": "echo 'Hello World'",
+        "sass": "node-sass --watch ./sass -o ./dist/css"
     },
     "repository": {
         "type": "git",
