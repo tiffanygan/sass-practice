@@ -24,13 +24,18 @@ section {
     }
 }
 
-.btn {
+%btn-share {
     padding: 0.5rem 1.3rem;
     border-radius: 5px;
+}
+
+.btn {
     &-light {
+        @extend %btn-share;
         @include set-background-and-color($light-color)
     }
     &-dark {
+        @extend %btn-share;
         @include set-background-and-color($dark-color)
     }
 }
